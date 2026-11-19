@@ -1,0 +1,74 @@
+[
+  {
+    "id": "HZS25",
+    "output": 25,
+    "mixer": "JS500",
+    "batcher": "PLD800",
+    "silo": "1 x 50 t",
+    "fobFrom": 62000
+  },
+  {
+    "id": "HZS35",
+    "output": 35,
+    "mixer": "JS750",
+    "batcher": "PLD1200",
+    "silo": "2 x 50 t",
+    "fobFrom": 80000
+  },
+  {
+    "id": "HZS50",
+    "output": 50,
+    "mixer": "JS1000",
+    "batcher": "PLD1600",
+    "silo": "2 x 80 t",
+    "fobFrom": 109000
+  },
+  {
+    "id": "HZS60",
+    "output": 60,
+    "mixer": "JS1000",
+    "batcher": "PLD1600",
+    "silo": "2 x 80 t",
+    "fobFrom": 110000
+  },
+  {
+    "id": "HZS75",
+    "output": 75,
+    "mixer": "JS1500",
+    "batcher": "PLD2400",
+    "silo": "2 x 100 t",
+    "fobFrom": 122000
+  },
+  {
+    "id": "HZS90",
+    "output": 90,
+    "mixer": "JS1500",
+    "batcher": "PLD2400",
+    "silo": "2 x 100 t",
+    "fobFrom": 126000
+  },
+  {
+    "id": "HZS120",
+    "output": 120,
+    "mixer": "JS2000",
+    "batcher": "PLD3200",
+    "silo": "2 x 100 t",
+    "fobFrom": 168000
+  },
+  {
+    "id": "HZS180",
+    "output": 180,
+    "mixer": "JS3000",
+    "batcher": "PLD4800",
+    "silo": "3 x 150 t",
+    "fobFrom": 238000
+  },
+  {
+    "id": "HZS240",
+    "output": 240,
+    "mixer": "JS4000",
+    "batcher": "PLD6400",
+    "silo": "3 x 150 t",
+    "fobFrom": 320000
+  }
+]
