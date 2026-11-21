@@ -1,0 +1,107 @@
+{
+  "model": "HZS120",
+  "source": "Solved geometry of the standard HZS120 station model (mixer tower, belt, silos, batcher); the same figures published at https://disongequipment.com/hzs120-technical-data",
+  "units": "millimetres unless stated",
+  "rating": {
+    "output_m3_per_h": 120,
+    "mixer": "JS2000",
+    "batcher": "PLD3200",
+    "aggregate_bins": 4,
+    "belt_width_mm": 1000,
+    "cement_silos": "2 x 100 t"
+  },
+  "footprint": {
+    "length_mm": 46769,
+    "width_mm": 12680,
+    "area_m2": 593
+  },
+  "tower": {
+    "plan_mm": [
+      7750,
+      5100
+    ],
+    "height_mm": 11704,
+    "floor_levels_mm": [
+      4550,
+      6668,
+      8786
+    ],
+    "mixer_discharge_mm": 3900
+  },
+  "belt": {
+    "incline_deg": 22,
+    "horizontal_run_mm": 23999,
+    "head_mm": 10554,
+    "tail_mm": 858
+  },
+  "silos": {
+    "count": 2,
+    "capacity_t": 100,
+    "shell_diameter_mm": 3000,
+    "leg_height_mm": 5150,
+    "leg_spacing_mm": 2263,
+    "discharge_mm": 5150
+  },
+  "screw_conveyors": {
+    "diameter_mm": 273,
+    "incline_deg": 25,
+    "vertical_rise_mm": 3804,
+    "run_mm": 8157
+  },
+  "foundation_pads": [
+    {
+      "pad": "mixer_tower",
+      "legs": 4,
+      "x_range_mm": [
+        0,
+        7750
+      ],
+      "y_range_mm": [
+        0,
+        5100
+      ],
+      "note": "highest loads; anchor plan issued with the order"
+    },
+    {
+      "pad": "silo_1",
+      "centre_mm": [
+        -10868,
+        2869
+      ],
+      "leg_grid_mm": 2263
+    },
+    {
+      "pad": "silo_2",
+      "centre_mm": [
+        -8154,
+        7260
+      ],
+      "leg_grid_mm": 2263
+    },
+    {
+      "pad": "belt_supports",
+      "count": 5,
+      "spacing_mm": 6000
+    },
+    {
+      "pad": "aggregate_bins",
+      "x_range_mm": [
+        -42724,
+        -34874
+      ],
+      "note": "hardstanding, wheel-loader traffic"
+    }
+  ],
+  "electrical": {
+    "voltage": "400/230 V, 3-phase, 50 Hz",
+    "connected_load_kw_approx": 165,
+    "generator_kva_prime": 300,
+    "note": "final motor ratings are issued with the order"
+  },
+  "shipping": {
+    "containers_40hq": 4,
+    "max_package_t": 5,
+    "silos": "shell courses, cone and roof shipped separate"
+  },
+  "boundary": "Foundation design, reinforcement and soil bearing remain with the buyer's locally registered engineer; loads and anchor plans come from the supplier."
+}

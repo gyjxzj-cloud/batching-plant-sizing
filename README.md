@@ -67,3 +67,34 @@ installation.
 
 MIT licensed. If the formula is wrong for your case, open an issue — that is more useful to us than
 agreement.
+
+## The dimensions the arithmetic does not give you
+
+Sizing answers *which* plant. It does not answer what the site has to look like once you have one, and
+those are the numbers a buyer checks before signing: how much ground the plant takes, what the pads
+carry, what it draws, and how it ships.
+
+For the HZS120 — the most common mid-size station — the solved figures are in
+[`data/hzs120-technical.json`](data/hzs120-technical.json):
+
+| | |
+|---|---|
+| Footprint | 46.769 × 12.680 m (593 m²) |
+| Mixer tower | 7.750 × 5.100 m, 11.704 m high; floors at 4.550 / 6.668 / 8.786 |
+| Inclined belt | 22°, 23.999 m horizontal run, head at 10.554 |
+| Cement silos | 2 × 100 t, Ø3.000, leg grid 2.263 square |
+| Connected load | about 165 kW — a 300 kVA set leaves margin for starting current |
+| Shipping | four 40HQ, no package over 5 t, silos as shell courses |
+
+Those figures, with the foundation pad positions and the levels, are published here:
+**https://disongequipment.com/hzs120-technical-data**
+
+Two caveats worth repeating, because they are where sizing projects go wrong:
+
+* the plant footprint is not the yard — a wheel loader needs a turning area and the aggregate stockpiles
+  sit next to the bins, so budget two to three times the rectangle;
+* foundations are not part of the machine. The supplier issues loads and anchor plans; the concrete,
+  reinforcement and the soil-bearing check belong to a locally registered engineer.
+
+If the site is tight, the belt angle is the cheapest thing to change: 22° → 25° saves about 2 m of
+length, 30° about 5 m, and nothing downstream moves.
